@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Downloaded model files (too large for git; see computer_vision/models/README.md)
+computer_vision/models/*.onnx
+
+# Face images (biometric data should never be committed)
+data/
+
+# Java
+hardware/lock-controller/target/
+*.class
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
